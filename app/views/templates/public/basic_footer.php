@@ -2,52 +2,6 @@
  <footer id="footer">
  	<div class="container">
  		<div class="row sections">
- 			<div class="span4 recent_posts">
- 				<h3 class="footer_header">
- 					Recent Posts
- 				</h3>
- 				<div class="post">
- 					<a href="blogpost.html">
- 						<img src="img/recent_post1.png" class="img-circle" />
- 					</a>
- 					<div class="date">
- 						Wed, 12 Dec
- 					</div>
- 					<a href="blogpost.html" class="title">
- 						Randomised words which don't look embarrasing hidden.
- 					</a>
- 				</div>
- 				<div class="post">
- 					<a href="blogpost.html">
- 						<img src="img/recent_post2.png" class="img-circle" />
- 					</a>
- 					<div class="date">
- 						Mon, 12 Dec
- 					</div>
- 					<a href="blogpost.html" class="title">
- 						Randomised words which don't look embarrasing hidden.
- 					</a>
- 				</div>
- 			</div>
- 			<div class="span4 testimonials">
- 				<h3 class="footer_header">
- 					Testimonials
- 				</h3>
- 				<div class="wrapper">
- 					<div class="quote">
- 						<span>“</span>
- 						There are many variations of passages of randomised words which don't look even slightly believable. You need to be sure there isn't anything embarrassing of text.
- 						<span></span>
- 					</div>
- 					<div class="author">
- 						<img src="img/user-display.png" />
- 						<div class="name">Alejandra Galvan Castillo</div>
- 						<div class="info">
- 							Details Canvas
- 						</div>
- 					</div>
- 				</div>
- 			</div>
  			<div class="span4 contact">
  				<h3 class="footer_header">
  					Contact

@@ -19,6 +19,7 @@
 	      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	      <![endif]-->
 	      <?php $this->load->view("templates/public/extra_css"); ?>
-	      <script src="<?php echo cdn_base("js/jquery-latest.js");?>"></script>
+	      <script type="text/javascript" src="<?= cdn_base("js/jquery-1.8.2.min.js"); ?>"></script>
+	      <script type="text/javascript" src="<?= cdn_base("js/jquery-ui.min.js"); ?>"></script>
 	  </head>
 	  <body class="pull_top">
