@@ -14,14 +14,14 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://aaa.triplea.webege.com/index.php/';
+$config['base_url']	= 'http://aaa2.triplea.webege.com/index.php/';
 $config['cdn_urls'] = array(
-							"base" => "http://aaa.triplea.webege.com/static/",
-							"png" => "http://aaa.triplea.webege.com/static/img/",
-							"jpg" => "http://aaa.triplea.webege.com/static/img/",
-							"gif" => "http://aaa.triplea.webege.com/static/img/",
-							"css" => "http://aaa.triplea.webege.com/static/css/",
-							"js" => "http://aaa.triplea.webege.com/static/scripts/"
+							"base" => "http://aaa2.triplea.webege.com/static/",
+							"png" => "http://aaa2.triplea.webege.com/static/img/",
+							"jpg" => "http://aaa2.triplea.webege.com/static/img/",
+							"gif" => "http://aaa2.triplea.webege.com/static/img/",
+							"css" => "http://aaa2.triplea.webege.com/static/css/",
+							"js" => "http://aaa2.triplea.webege.com/static/scripts/"
 							);
 							
 $config['fromemail'] = "support@aaa.com";

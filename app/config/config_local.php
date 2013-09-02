@@ -15,14 +15,14 @@
 |
 */
 $config['base_domain']	= 'localhost:81';
-$config['base_url']	= 'http://localhost:81/aaa/';
+$config['base_url']	= 'http://localhost:81/aaa2/';
 $config['cdn_urls'] = array(
-							"base" => "http://localhost:81/aaa/static/",
-							"png" => "http://localhost:81/aaa/static/img/",
-							"jpg" => "http://localhost:81/aaa/static/img/",
-							"gif" => "http://localhost:81/aaa/static/img/",
-							"css" => "http://localhost:81/aaa/static/css/",
-							"js" => "http://localhost:81/aaa/static/js/"
+							"base" => "http://localhost:81/aaa2/static/",
+							"png" => "http://localhost:81/aaa2/static/img/",
+							"jpg" => "http://localhost:81/aaa2/static/img/",
+							"gif" => "http://localhost:81/aaa2/static/img/",
+							"css" => "http://localhost:81/aaa2/static/css/",
+							"js" => "http://localhost:81/aaa2/static/js/"
 							);
 
 $config['fromemail'] = "";
