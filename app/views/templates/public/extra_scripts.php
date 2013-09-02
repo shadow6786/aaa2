@@ -1,6 +1,6 @@
 		<script src="<?php echo cdn_base("js/jquery-latest.js");?>"></script>
 		<script src="<?php echo cdn_base("js/bootstrap.min.js");?>"></script>
-		<script src="<?php echo cdn_base("js/theme.js");?>"></script>
+		<!-- <script src="<?php echo cdn_base("js/theme.js");?>"></script> -->
 		<script type="text/javascript" src="<?php echo cdn_base("js/index-slider.js");?>"></script>	
 		<?php
 		if (isset($scripts) && is_array($scripts)) {

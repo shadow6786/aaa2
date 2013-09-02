@@ -9,7 +9,7 @@
 	<!-- Styles -->
 	<link href="<?php echo cdn_base("css/bootstrap.min.css");?>" rel="stylesheet">
 	<link href="<?php echo cdn_base("css/bootstrap-responsive.min.css");?>" rel="stylesheet">
-	<link href="<?php echo cdn_base("css/bootstrap-overrides.css");?>" rel="stylesheet">
+	<!--<link href="<?php echo cdn_base("css/bootstrap-overrides.css");?>" rel="stylesheet"> -->
 	<link rel="stylesheet" type="text/css" href="<?php echo cdn_base("css/theme.css");?>">
 	<link rel="stylesheet" href="<?php echo cdn_base("css/index.css");?>" type="text/css" media="screen" />
 
