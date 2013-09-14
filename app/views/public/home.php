@@ -9,7 +9,7 @@
             <div class="span4 feature first">
                 <div class="img_box">
                     <a href="services.html">
-                        <img src="img/service1.png">
+                        
                         <span class="circle"> 
                             <span class="plus">&#43;</span>
                         </span>
@@ -26,7 +26,7 @@
             <div class="span4 feature">
                 <div class="img_box">
                     <a href="services.html">
-                        <img src="img/service2.png">
+                        
                         <span class="circle"> 
                             <span class="plus">&#43;</span>
                         </span>
@@ -43,7 +43,7 @@
             <div class="span4 feature last">
                 <div class="img_box">
                     <a href="services.html">
-                        <img src="img/service3.png">
+                        
                         <span class="circle"> 
                             <span class="plus">&#43;</span>
                         </span>
