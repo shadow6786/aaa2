@@ -81,6 +81,7 @@
                     </p>
                 </div>
             </div>
+
             <div class="row feature">
                 <div class="col-sm-6 pic-right">
                     <img src="img/showcase2.png" class="pull-right img-responsive" />
@@ -90,6 +91,7 @@
                         <img src="img/features-ico2.png" />
                         Blog page included
                     </h3>
+
                     <p>
                         There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
                     </p>
@@ -104,6 +106,7 @@
                         <img src="img/features-ico3.png" />
                         Simple and clean coming soon page
                     </h3>
+
                     <p>
                         There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
                     </p>
