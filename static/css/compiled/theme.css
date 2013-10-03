@@ -37,7 +37,7 @@ header {
 .navbar {
   padding: 10px 0px 10px 0px; }
   .navbar.navbar-inverse {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid #585858; }
     .navbar.navbar-inverse.navbar-static-top {
       background-color: #252528; }
