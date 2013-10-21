@@ -7,7 +7,8 @@ class Nosotros extends CI_Controller {
 		$this->data = array(
 						"main_content"=> "public/nosotros",
 						"showslider" => false,
-						"scripts" => null
+						"scripts" => null,
+						"css" => array("css/compiled/basic.css")
 					);
 		$this->load->view('templates/basic_template',$this->data);
 	}

@@ -1,0 +1,30 @@
+#main_content {
+  margin-bottom: 90px;
+  margin-top: 70px; }
+  #main_content .intro h6 {
+    font-size: 21px;
+    font-style: italic;
+    color: #252526;
+    line-height: 29px;
+    font-weight: normal;
+    margin: 0 0 16px 0; 
+    padding-top: 15px;}
+  #main_content .intro p {
+    color: #3F3F3F;
+    line-height: 24px; }
+  #main_content .flexslider {
+    box-shadow: none;
+    margin: 0;
+    border: 0 none; }
+  #main_content .flex-control-paging li a {
+    background: #666666;
+    box-shadow: none;
+    width: 11px;
+    height: 11px;
+    border: 3px solid #E6E6E6; }
+    #main_content .flex-control-paging li a.flex-active {
+      box-shadow: none;
+      background: #2894DC;
+      border-color: #2894DC; }
+  #main_content .flex-control-nav {
+    bottom: -30px; }

@@ -20,7 +20,6 @@
 		<script src="<?php echo cdn_base("panel/assets/js/jquery.easy-pie-chart.min.js"); ?> "></script>
         <script src="<?php echo cdn_base("panel/assets/js/lib/fullcalendar.min.js"); ?> "></script>
 
-
 		<script type="text/javascript" src="<?php echo cdn_base("panel/assets/js/lib/jquery.tablesorter.min.js"); ?> "></script>
         <script type="text/javascript" src="<?php echo cdn_base("panel/assets/js/lib/jquery.dataTables.min.js"); ?> "></script>
         <script type="text/javascript" src="<?php echo cdn_base("panel/assets/js/lib/DT_bootstrap.js"); ?> "></script>
