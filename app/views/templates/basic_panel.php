@@ -5,4 +5,4 @@
 	$this->load->view("templates/panel/basic_sidebar");
 	$this->load->view($main_content);
 	$this->load->view("templates/panel/basic_footer");
-	$this->load->view('templates/public/extra_scripts', $scripts);
+	$this->load->view('templates/panel/extra_scripts', $scripts);
