@@ -6,7 +6,8 @@ class Inicio extends CI_Controller {
 	{
 		$data = array(
 						"main_content"=> "panel/inicio",
-						"scripts" => null
+						"scripts" => null,
+						"title" => "Inicio"
 					);
 		$this->load->view('templates/basic_panel',$data);
 	}

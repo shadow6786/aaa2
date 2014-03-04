@@ -6,7 +6,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Dashboard</title>
+        <title><?php if(isset($title)) { echo $title; }else{ echo base_url(); } ?></title>
         <meta name="description" content="Panel: AAA Internacional Admin Panel">
         <meta name="viewport" content="width=device-width">
         <link type="text/css" rel="stylesheet" href="<?php echo cdn_base("panel/assets/css/bootstrap.min.css"); ?>">
