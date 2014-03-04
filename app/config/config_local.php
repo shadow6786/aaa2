@@ -371,3 +371,10 @@ $config['proxy_ips'] = '';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+function __autoload($class)
+{
+	if(strpos($class, 'CI_') !== 0)
+ 	{
+  		@include_once( APPPATH . 'core/'. $class . EXT );
+ 	}
+}
