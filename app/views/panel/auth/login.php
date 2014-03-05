@@ -3,7 +3,7 @@
                 <div class="span4 offset4">
                     <div class="signin">
                         <div id="logo">
-                            <img src="../img/logo.png" alt="Bizstrap Logo">
+                            <img src="<?php echo cdn_base('img/hoja_azul.png') ?>" alt="AAA Internacional Logo">
                         </div>
                         <div class="tab-content">
                             <div id="login" class="tab-pane active">

@@ -1,6 +1,13 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Inicio extends CI_Controller {
+class Inicio extends Admin_controller {
+
+	function __construct()
+	{
+		parent::__construct();
+		$this->load->model('panel/auth/mysecurity');
+		$this->mysecurity->verifysecurity('inicio');
+	}
 
 	public function index()
 	{
