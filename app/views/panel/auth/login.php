@@ -7,7 +7,10 @@
                         </div>
                         <div class="tab-content">
                             <div id="login" class="tab-pane active">
-                                <form action="<?php echo base_url("panel/inicio"); ?>" accept-charset="utf-8" method="post">
+                                <div class="alert">
+                                    <?php if(isset($err)){ echo $err; } ?>
+                                </div>
+                                <form action="<?php echo base_url("panel/auth/login"); ?>" accept-charset="utf-8" method="post">
                                     <p class="muted tac">
                                         Ingrese su usuario y contraseña
                                     </p>
@@ -15,13 +18,15 @@
                                         <div class="controls">
                                             <div class="input-prepend">
                                                 <span class="add-on"><i class="icon-user"></i></span>
-                                                <input type="text" placeholder="Usuario">
+                                                <input type="text" id="usuario_usr" name="usuario_usr" placeholder="Usuario">
+                                                <?php echo form_error('usuario_usr'); ?>
                                             </div>
                                         </div>
                                         <div class="controls">
                                             <div class="input-prepend">
                                                 <span class="add-on"><i class="icon-lock"></i></span>
-                                                <input type="password" placeholder="Contraseña">
+                                                <input type="password" id="password_usr" name="password_usr" placeholder="Contraseña">
+                                                <?php echo form_error('password_usr'); ?>
                                             </div>
                                         </div>
                                     </div>

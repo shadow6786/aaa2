@@ -13,8 +13,8 @@ class Login extends CI_Controller {
 		$this->load->library('form_validation');
 		
 		$this->form_validation->set_error_delimiters('<div  class="alert-error">', '</div>');
-		$this->form_validation->set_rules('email', 'Email', 'trim|required|xss_clean');
-		$this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean');
+		$this->form_validation->set_rules('usuario_usr', 'Usuario', 'trim|required|xss_clean');
+		$this->form_validation->set_rules('password_usr', 'Password', 'trim|required|xss_clean');
 		$err = '';	
 		
 		if ($this -> input -> get("e") == 1) {
@@ -43,16 +43,17 @@ class Login extends CI_Controller {
 			$data['err'] = $err;
 			$this->load->view('templates/basic_login',$data);	
 		} else {
+
 			$data = array(
-			'email'=> $this->input->post('email',TRUE),
-				'password' => $this->input->post('password',TRUE)
+			'email'=> $this->input->post('usuario_usr',TRUE),
+				'password' => $this->input->post('password_usr',TRUE)
 			);
 			if (!$this->mysecurity->login($data)){
 				$data['err'] = 'Nombre de Usuarios y/o constraseña es incorrecto';
 				$data['main_content'] = 'panel/auth/login';
 				$data['scripts'] = '';
 				$this->load->view('templates/basic_login',$data);
-		  	}  
+		  	} 
 		}
 	}
 }

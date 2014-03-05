@@ -234,7 +234,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '654654#hanssvanefhjdthjudtru';
+$config['encryption_key'] = '889*+Triple+326asA';
 
 /*
 |--------------------------------------------------------------------------
@@ -304,8 +304,8 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_expire' = The number in seconds the token should expire.
 */
 $config['csrf_protection'] = FALSE;
-$config['csrf_token_name'] = 'demochimpTKN';
-$config['csrf_cookie_name'] = 'demochimpCKN';
+$config['csrf_token_name'] = 'aaainternacionalTKN';
+$config['csrf_cookie_name'] = 'aaainternacionalCKN';
 $config['csrf_expire'] = 7200;
 
 /*

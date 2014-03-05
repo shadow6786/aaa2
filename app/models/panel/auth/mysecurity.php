@@ -35,17 +35,16 @@ class Mysecurity extends CI_model {
 	
 	function checkpassword($passwords)
 	{
-		$this->load->library("encrypt");
+		$this -> load -> library("encrypt");
 		$ret = NULL;
-		$pass1 = $unsecpass = $this->encrypt->sha1($passwords["pass1"]);
-		$pass2 = $password = $this->encrypt->decode($passwords["pass2"]);
+		$pass1 = $unsecpass = $this -> encrypt -> sha1($passwords["pass1"]);
+		$pass2 = $password = $this -> encrypt -> decode($passwords["pass2"]);
 		var_dump($pass1);
 		var_dump($pass2);
-		if($pass1 == $pass2)
-		{
+		if ($pass1 == $pass2) {
 			$ret = TRUE;
 		}
-		
+
 		return $ret;
 
 	}
@@ -58,7 +57,7 @@ class Mysecurity extends CI_model {
 		
 		$sql = "SELECT * FROM seg_usuarios WHERE usuario_usr = ".$this->db->escape($email)." limit 1";
 		$query = $this->db->query($sql);
-		
+
 		if($query->num_rows() == 1)
 		{
 			$result = $query->result();
@@ -67,7 +66,7 @@ class Mysecurity extends CI_model {
 								"pass1" => $pass1,
 								"pass2" => $user->password_usr
 							   );
-			
+			//var_dump($passwords);exit;
 			if($this->mysecurity->checkpassword($passwords))
 			{
 				
@@ -86,7 +85,7 @@ class Mysecurity extends CI_model {
 					$this->rememberme($id);
 				}
 				//$this->mysecurity->redirect(); //to-do redirect to prev. link
-				redirect('/panel/welcome');
+				redirect('/panel/inicio');
 			}
 		}
 		
@@ -274,6 +273,7 @@ class Mysecurity extends CI_model {
 				if($this->session->userdata("enable_usr") == 1)
 				{
 					$security = $this->session->userdata("userfeatures");
+					var_dump($security);exit();
 					if(key_exists($lookfor, $security))
 					{
 						// Pass the security check
@@ -283,7 +283,7 @@ class Mysecurity extends CI_model {
 						}
 					} else {
 						$ret = FALSE;
-						redirect("panel/auth/login?e=1");	
+						//redirect("panel/auth/login?e=1");	
 					}
 				} else {
 					$ret = FALSE;
@@ -297,7 +297,7 @@ class Mysecurity extends CI_model {
 				redirect("panel/auth/login?e=3");
 			} else {
 				$ret = FALSE;
-				redirect("panel/auth/login?e=1");	
+				//redirect("panel/auth/login?e=1");	
 			}
 			
 		}

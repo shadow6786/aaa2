@@ -26,7 +26,7 @@ class Users extends CI_model {
 				$and = " AND ";
 			}
 			
-			$sql = "SELECT * FROM `sec_users` ".$where;
+			$sql = "SELECT * FROM `seg_usuarios` ".$where;
 			$query = $this->db->query($sql);
 
 			if($query->num_rows() > 0)
