@@ -358,39 +358,4 @@ class Mysecurity extends CI_model {
 
 		return $data;
 	}
-
-	/*function getmymenu()
-	{
-		//funcion recursiva que trae todos los elementos del menú en un mismo menú anidado agrupado por el padre.
-		return $this->get_menu_por_padre();
-	}
-	
-	function get_menu_por_padre($padre = 0)
-	{
-		$items = array();
-		$sql = "select  DISTINCT(f.id_ufe), f.name_ufe, f.link_ufe, f.link_ufe,f.page_ufe
-		from sec_userfeatures f, sec_usersrols u, sec_permissions p
-		where f.menu_ufe = ". $padre. "
-		and u.user_uro = ". $this->db->escape($this->session->userdata("id_usr")) . "
-		and u.rol_uro = p.rol_per
-		and f.id_ufe = p.feature_per
-		order by f.order_ufe";
-
-		$query = $this->db->query($sql);
-		$results = $query->result();
-		
-		 foreach($results as $result) {
-            $child_array = $this->get_menu_por_padre($result->id_ufe);
-            if(sizeof($child_array) == 0) {
-                array_push($items, array($result->name_ufe,$result->link_ufe, $result->page_ufe));
-            } else {
-                array_push($items, array(array($result->name_ufe,$result->link_ufe, $result->page_ufe), $child_array));
-            }
-        }
-        
-        return $items;
-		
-		
-		
-	}*/
 }
